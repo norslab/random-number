@@ -1,6 +1,29 @@
+body{
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to bottom right, rgba(79, 51, 176, 1), rgba(210, 53,165));
+}
+
+.rowcolor{ 
+  margin-top: 100px;
+  /* background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px; */
+}
+
 @media only screen and (max-width: 394px) {
+  body{
+    height: 200vh;
+  }
   .col{
     margin-top: 20px;
+  }
+
+  .rowcolor{
+    margin-top: 60px;
   }
     
   }
